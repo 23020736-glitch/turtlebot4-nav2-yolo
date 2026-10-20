@@ -1,0 +1,9 @@
+yolo_detector:
+  ros__parameters:
+    use_sim_time: true
+    image_topic: /oakd/rgb/preview/image_raw
+    output_topic: /yolo/image_annotated
+    model: yolov8n.pt
+    conf: 0.4
+    max_fps: 5.0
+    show_window: true

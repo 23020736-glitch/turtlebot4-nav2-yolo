@@ -1,0 +1,10 @@
+waypoint_navigator:
+  ros__parameters:
+    use_sim_time: true
+    set_initial_pose: false     # đã đặt initial pose bằng RViz2
+    loop: false
+    goals: [
+       7.33,  7.98,  0.0,     # Goal 1
+       8.81, -6.99,  3.14,    # Goal 2
+      -5.21, -6.90,  1.57     # Goal 3
+    ]
